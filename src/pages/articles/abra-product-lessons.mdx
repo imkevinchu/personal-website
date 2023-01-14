@@ -1,0 +1,95 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const meta = {
+  author: 'Kevin Chu',
+  date: '2018-09-11',
+  title: 'Product Lessons for Crypto',
+  description:
+    'Observations and lessons from building a user-friendly consumer crypto app.',
+}
+
+export default (props) => <ArticleLayout meta={meta} {...props} />
+
+Originally published on [Medium](https://medium.com/theblock1/product-lessons-for-crypto-what-we-learned-interning-at-abra-d230f83fadf4)
+
+Internship reflections and observations by Abra’s Best Product Management Interns Ever™ Shohini Gupta and Kevin Chu
+
+When we started our summers with [Abra](https://www.abra.com/) as product management interns, we didn’t know the first thing about [UTXOs](https://bitcoin.org/en/glossary/unspent-transaction-output), [ERC-20 smart contracts](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md), or [non-custodial wallets](https://www.abra.com/blog/noncustodialwallet/). Neither of us had yet invested in cryptocurrency ourselves or knew quite what to expect when it came to working on what was next for Abra’s mission to simplify cryptocurrency investing.
+
+Instead, we brought with us a burning desire to learn as much as we could about a young and fast-growing space, a willingness to embrace our beginners’ mindset of not being experts, and an eagerness to start from first principles of tried-and-true product practice.
+
+Now that our summers have come to a close, we’d like to share some of the product lessons we learned during our time with Abra:
+
+## Time spent talking with customers is more important than market timing
+
+The best crypto products need to be delightful and useful regardless of where the market swings. At Abra, we learned that crypto products should account for more than just relying on investor activity during a bull run. Cycles happen, and that’s why **product owners must build for the long view, not today’s local maxima or minima.**
+
+**Price isn’t the only way to compete**: Beyond competing on just price by offering competitive spreads, we aimed to win customer appreciation by delivering on a solid user experience, altcoin exposure, customer support, transparency, and the security of a non-custodial wallet.
+
+![Abra’s synthetic currency platform empowers users to invest in 28 different cryptocurrencies within the user interface of a single mobile app](https://cdn-images-1.medium.com/max/4000/0*813JLQ3TZhe5_owO)_Abra’s synthetic currency platform empowers users to invest in 28 different cryptocurrencies within the user interface of a single mobile app_
+
+### We went back to basics
+
+We conducted 100+ hours of user interviews and usability studies between the both of us, and we also ran a large-scale study of both Abra users and non-users to discover and validate pain points where customers felt the most frustration or unwanted friction in their cryptocurrency investing experience.
+
+We discovered that customers were most worried about timing the market, the lack of trustworthy sources for investing information, and frustration with complicated and confusing products with fragmented use cases across their cryptocurrency investing needs.
+
+Through talking with Abra users and non-users, we learned to concentrate product strategy on providing best-in-class retail investing solutions and information bundled in a superior user experience, as opposed to spreading ourselves thin by working on niche product offerings with less-than-viable user experience delivery. **We learned that the _viable_ is just as important as the minimum in MVP (minimum viable product)**.
+
+### Avoid getting lost in translation
+
+As a company based in the San Francisco Bay Area, we wanted to test how well financial terms and labels would translate between US and international users. From our segments of European user and market research, we learned of regional idiosyncrasies in terminology such as “topping off” wallets. We also uncovered critical formatting differences that informed data integrity and consistency.
+
+For example, we reminded ourselves that users in the United Kingdom were familiar with alphanumeric postal codes, as opposed to numerical zip codes. UK users also expressed surprisingly less familiarity with the SEPA (Single Euro Payments Area) system, though we understood that UK users were familiar with local payment schemes such as the Faster Payments Scheme (FPS) system.
+
+### The crypto revolution will be accessible
+
+When we designed our usability studies, we aimed to sample from a diverse set of user interviewees. We recognized that working in Silicon Valley habituates us toward user interfaces that we take for granted as natural and common-sense.
+
+However, as with any product with a wide-ranging user base, we recalled the need for inclusive design when running usability testing with older, often vision-impaired users with less technological familiarity.
+
+**Familiarity with design patterns and accessible information hierarchy breeds trust**. Inaccessible design and frustrating experiences do the opposite.
+
+For example, when we tested a new design, we learned after a session filled with rage-clicks and confusion that we needed to increase our contrast ratio in the redesign so the new experience can be easily accessible to vision-impaired users.
+
+### Usability testing is a prerequisite, not the end-all, be-all of product validation
+
+No prototype survives first contact with real users. However much user testing we did, users were never using their own money when going through a guided prototype with limited, mocked-up functionality.
+
+Because users are being prompted to perform tasks under our watch with mocked-up money, there will always be natural limits to guided user testing. **Real skin in the game and the next degree of authentic user feedback can only come from users using the app in the wild.**
+
+## Staying focused
+
+### Keeping ourselves laser focused on building the best mobile cryptocurrency investing experience for the active retail investor
+
+We kept ourselves focused by narrowing in on one user persona: _the active retail cryptocurrency investor_. As a result, we prioritized delivering best-in-class user experience and expanding convenient fiat on-ramps this summer over custody products.
+
+We felt a sense of urgency knowing that the cryptocurrency product space was still young and that there is yet so much more to be built. **User-friendly, non-custodial wallets will be key to participating in the decentralized economy.**
+
+As a decentralized future becomes more of a reality, we learned to anticipate future changes in regulation or adoption by customers or institutions. Let’s consider a potential parallel in the scooter phenomenon: As we saw with scooters, who’s to say that the first few winners won’t scoop up regulatory grace before the drawbridge of regulation surfaces strong regulatory moats?
+
+## Users want to feel like they can win
+
+Some of our most delightful moments during our internships came from talking with users from Abra’s diverse and multifaceted customer base. One user stopped us to tell us: _“Whenever I invest in cryptocurrency, I like to win. Thank you for helping me feel like a winner when I use Abra.”_
+
+Beyond being glad that this user found much delight in Abra, we recognized in his remark a common theme from other user interviews: We’d often hear language such as “play money” or “betting money” from users who speculate via cryptocurrency. Above all, these users wanted to feel like they can make money.
+
+### People want fiat on-ramps and the delight of instant buys
+
+Call it fear of missing out, call it instant gratification: Users want to cash in so they can get in the crypto investing market. With new features such as Visa/Mastercard instant buys or SEPA bank deposits for European users, Abra met users where they were with their quick appetite for fiat on-ramps.
+
+### Europeans love credit cards
+
+We also found that European customers in particular displayed a strong fondness for their debit and credit cards. While users worldwide can now use their Visa or Mastercard credit cards to put money into Abra, our conversations with European users gave us astonishing visibility into more nuanced use cases demonstrated by European fintechs such as Revolut and N26. We developed much respect for how both companies are giving customers greater visibility and control over their personal finances and spending.
+
+### People want tools which allow them to make more informed, planned decisions
+
+Context is everything. **Giving users the right context helps users feel more in control and confident that they can make the right investing decisions for themselves.** Users want to win, which is why Abra is introducing features that will let users set price alerts and view historical price data charts.
+
+We learned a lot in bringing these features to life, from the trade-offs between various charting libraries to defining a whole new user journey in setting price alerts, all in service of empowering users with accessible price information and context so they feel like they can have a better shot at winning when buying or selling cryptocurrencies.
+
+Interning with Abra gave us a rigorous, fast-paced learning experience in the deep end of the product management pool. As individuals deeply involved in our respective schools’ entrepreneurship communities, we greatly appreciated the entrepreneurial energy of working alongside talented people at a nimble startup with great ambitions for the decentralized future.
+
+We’re especially grateful to Abra product managers [Matt](https://www.linkedin.com/in/matthewhelmer/) and [Juan](https://www.linkedin.com/in/jhuezo/), designers [Meliza](https://www.linkedin.com/in/melizamitra/) and [Cindy](https://www.linkedin.com/in/cindymjkim/), and everyone on our product teams for being thorough, thoughtful mentors and truly incredible people to work with.
+
+We’re beyond excited for the future of Abra and the cryptocurrency space, and we look forward to carrying with us all that we learned onward into the brave new future.
