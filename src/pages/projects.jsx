@@ -55,7 +55,7 @@ const projects = [
   {
     name: 'Recipify',
     description:
-      'Using the Clarifai computer vision API to identify a plate of food and search for matching recipes with the Spooncacular food API (HackNY 2016)',
+      'Using the Clarifai computer vision API to identify a plate of food and search for matching recipes with the Spoonacular food API (HackNY 2016)',
     link: { href: '#', label: 'github.com' },
   },
 ]
