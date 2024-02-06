@@ -294,8 +294,8 @@ export default function Home({ articles }) {
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Kevin, a product-driven software engineer and writer with a
             background in fintech and product management. I am a consummate
-            generalist and reader often thinking about how money moves around
-            the world and how great organizations are built.
+            generalist and reader. I often think about how great organizations
+            are built and how money and information move around the world.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
