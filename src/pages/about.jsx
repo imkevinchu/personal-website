@@ -104,13 +104,13 @@ export default function About() {
               >
                 Follow on GitHub
               </SocialLink>
-              <SocialLink
+              {/* <SocialLink
                 href="https://linkedin.com/in/imkevinchu"
                 icon={LinkedInIcon}
                 className="mt-4"
               >
                 Follow on LinkedIn
-              </SocialLink>
+              </SocialLink> */}
               <SocialLink
                 href="#0"
                 icon={MailIcon}

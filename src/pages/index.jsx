@@ -313,11 +313,11 @@ export default function Home({ articles }) {
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
-            <SocialLink
+            {/* <SocialLink
               href="https://linkedin.com/in/imkevinchu"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
-            />
+            /> */}
           </div>
         </div>
       </Container>
