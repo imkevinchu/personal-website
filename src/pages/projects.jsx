@@ -5,6 +5,24 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 
 const projects = [
   {
+    name: 'Soupbone Collective',
+    description:
+      'Collaborated with two creative programmers to hand-roll an indie website for our zine collective using the Astro static site framework',
+    link: { href: '#', label: 'github.com' },
+  },
+  {
+    name: 'Sidewalk Sheds',
+    description:
+      'Visualizing the NYC Open Data sidewalk shed dataset with the Mapbox API and react-map-gl',
+    link: { href: '#', label: 'github.com' },
+  },
+  {
+    name: 'Wrong Biennale',
+    description:
+      'Collaborated with artists on a generative text-to-speech exhibit accepted to the fifth international Wrong Biennale digital art pavillion',
+    link: { href: '#', label: 'github.com' },
+  },
+  {
     name: 'Medisure.ai',
     description:
       'GPT-3 robo-lawyer for health insurance claim denials (Columbia Venture Competition SEAS Tech Challenge 2021 finalists)',
